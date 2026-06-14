@@ -5,6 +5,7 @@ import com.dharaneesh.accounts.dto.CustomerDto;
 import com.dharaneesh.accounts.entity.Accounts;
 import com.dharaneesh.accounts.entity.Customer;
 import com.dharaneesh.accounts.exception.CustomerAlreadyExistsException;
+import com.dharaneesh.accounts.exception.ResourceNotFoundException;
 import com.dharaneesh.accounts.mapper.CustomerMapper;
 import com.dharaneesh.accounts.repository.AccountsRepository;
 import com.dharaneesh.accounts.repository.CustomerRepository;
@@ -42,6 +43,32 @@ public class AccountsServiceImpl implements IAccountsService {
         accountsRepository.save(createNewAccount(savedCustomer));
     }
 
+    /**
+     *
+     * @param mobileNumber
+     * @return
+     */
+
+    @Override
+    public CustomerDto fetchAccounts(String mobileNumber) {
+
+        Customer customer=customerRepository.findByMobileNumber(mobileNumber)
+                .orElseThrow(()->new ResourceNotFoundException("Customer","MobleNumber",mobileNumber.toString()));
+
+        Accounts accounts=accountsRepository.findByCustomerId(customer.getCustomerId())
+                .orElseThrow(()->new ResourceNotFoundException("Account","CustomerId",customer.getCustomerId().toString()));
+
+        CustomerDto customerDto=CustomerMapper.mapCustomerToCustomerDto(customer,new CustomerDto());
+        customerDto.setAccounts(accounts);
+        return customerDto;
+
+    }
+
+    /**
+     *
+     * @param customer
+     * @return
+     */
     private Accounts createNewAccount(Customer  customer)
     {
         Accounts accounts=new Accounts();
