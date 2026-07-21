@@ -5,30 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d72dd41-c767-4cd9-a8ac-7293468ee87e" name="Changes" comment="base code with sql query">
-      <change afterPath="$PROJECT_DIR$/accounts/accounts/src/main/java/com/dharaneesh/accounts/constants/AccountsConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/accounts/src/main/java/com/dharaneesh/accounts/dto/AccountsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/accounts/src/main/java/com/dharaneesh/accounts/dto/CustomerDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/accounts/src/main/java/com/dharaneesh/accounts/dto/ErrorResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/accounts/src/main/java/com/dharaneesh/accounts/dto/ResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/accounts/src/main/java/com/dharaneesh/accounts/entity/Accounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/accounts/src/main/java/com/dharaneesh/accounts/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/accounts/src/main/java/com/dharaneesh/accounts/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/accounts/src/main/java/com/dharaneesh/accounts/exception/CustomerAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/accounts/src/main/java/com/dharaneesh/accounts/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/accounts/src/main/java/com/dharaneesh/accounts/mapper/AccountsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/accounts/src/main/java/com/dharaneesh/accounts/mapper/CustomerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/accounts/src/main/java/com/dharaneesh/accounts/repository/AccountsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/accounts/src/main/java/com/dharaneesh/accounts/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/accounts/src/main/java/com/dharaneesh/accounts/service/AccountsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/accounts/src/main/java/com/dharaneesh/accounts/service/IAccountsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/accounts/src/main/java/com/dharaneesh/accounts/controller/AccountsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/accounts/src/main/java/com/dharaneesh/accounts/controller/AccountsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/cards/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/loans/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/loans/src/test/java/com/dharaneesh/loans/LoansApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/macbook/Downloads/Banking-Application-" value="3EMTM5KEDsYJOI0nUT1GvLRcmFT" />
+      <entry key="_/Users/macbook/Downloads/Banking-Application-/loans/loans" value="3GlFIgv44Nn7RpSdfWTPHGKETHq" />
+    </persistenceIdMap>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,7 +44,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Dharaneeshravi/Banking-Application-.git&quot;,
-    &quot;accountId&quot;: &quot;b2a9b804-649a-456f-8d2c-ff27c3423ab3&quot;
+    &quot;accountId&quot;: &quot;dc79b9a6-23e8-4ec4-812d-fa79eb3d64ae&quot;
   }
 }</component>
   <component name="MavenImportPreferences">
@@ -60,41 +54,141 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.2189728123412285" />
+      <entry key="MS500" value="2.7901806835055685" />
+      <entry key="S2" value="4.227620401702335" />
+      <entry key="S5" value="4.751117413767295" />
+      <entry key="S10" value="5.581252340573449" />
+      <entry key="S30" value="11.839214680795079" />
+      <entry key="S60" value="18.424753912352408" />
+      <entry key="M2" value="25.429400138010553" />
+      <entry key="M5" value="44.45676529358524" />
+      <entry key="M10" value="74.4407850885891" />
+      <entry key="M15" value="98.24830065635288" />
+      <entry key="M30" value="141.83490579577858" />
+      <entry key="H1" value="177.76006996927853" />
+      <entry key="H2" value="201.37076937285008" />
+      <entry key="H4" value="214.98645261767615" />
+      <entry key="D1" value="227.3938690032454" />
+      <entry key="W1" value="229.62505774398795" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.3218212164355048E-243" />
+      <entry key="S5" value="7.054547120178966E-98" />
+      <entry key="S10" value="2.6573276155638567E-49" />
+      <entry key="S30" value="7.229338841808381E-17" />
+      <entry key="S60" value="1.2020560557897851E-8" />
+      <entry key="M2" value="1.793160160604291E-4" />
+      <entry key="M5" value="0.06599290699693665" />
+      <entry key="M10" value="0.5733026130371084" />
+      <entry key="M15" value="1.259351054357916" />
+      <entry key="M30" value="2.896086401308437" />
+      <entry key="H1" value="4.474237499731266" />
+      <entry key="H2" value="5.587630982229335" />
+      <entry key="H4" value="6.251633601035393" />
+      <entry key="D1" value="6.8689526478776655" />
+      <entry key="W1" value="6.981117778414455" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.1620973214430743" />
+      <entry key="MS500" value="2.7643551180577886" />
+      <entry key="S2" value="4.21804696179547" />
+      <entry key="S5" value="4.7454179069161695" />
+      <entry key="S10" value="5.575817556907266" />
+      <entry key="S30" value="11.831266404956363" />
+      <entry key="S60" value="18.415493346003384" />
+      <entry key="M2" value="25.421592139334034" />
+      <entry key="M5" value="44.51645996432823" />
+      <entry key="M10" value="75.00717811800304" />
+      <entry key="M15" value="99.50015700207592" />
+      <entry key="M30" value="144.72391566774886" />
+      <entry key="H1" value="182.2291798698808" />
+      <entry key="H2" value="206.95527714698073" />
+      <entry key="H4" value="221.23635791648368" />
+      <entry key="D1" value="234.2625077788421" />
+      <entry key="W1" value="236.60613001334247" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8,
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3EMTM5KEDsYJOI0nUT1GvLRcmFT" />
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Agent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="BACKGROUND" />
+        <option name="worktreeMode" value="WORKSPACE" />
+      </template>
+    </option>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.AccountsApplication.executor": "Debug",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/hanus/OneDrive/Documents/microservices",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.cards [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cards [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.loans [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.loans [install].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AccountsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.LoansApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/macbook/Downloads/Banking-Application-&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hanus\OneDrive\Documents\microservices" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.LoansApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="accounts" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="accounts" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
     <configuration name="AccountsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
       <module name="accounts" />
@@ -109,8 +203,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoansApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="loans" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dharaneesh.loans.LoansApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dharaneesh.loans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.LoansApplication" />
         <item itemvalue="Spring Boot.AccountsApplication" />
       </list>
     </recent_temporary>
@@ -118,8 +227,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
       </set>
     </attachedChunks>
   </component>
