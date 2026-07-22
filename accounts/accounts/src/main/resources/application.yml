@@ -15,3 +15,5 @@ spring:
 
   application:
         name: accounts
+build:
+  version: "1.O"

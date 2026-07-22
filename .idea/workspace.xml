@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d72dd41-c767-4cd9-a8ac-7293468ee87e" name="Changes" comment="create docker image for cards and loans ms">
-      <change afterPath="$PROJECT_DIR$/accounts/accounts/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0d72dd41-c767-4cd9-a8ac-7293468ee87e" name="Changes" comment="changes all build image using google jib">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/accounts/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/accounts/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/cards/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/accounts/src/main/java/com/dharaneesh/accounts/controller/AccountsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/accounts/src/main/java/com/dharaneesh/accounts/controller/AccountsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/accounts/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,61 +56,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0077054788035786" />
-      <entry key="MS500" value="1.471734801184099" />
-      <entry key="S2" value="2.955285590421683" />
-      <entry key="S5" value="4.239118049060049" />
-      <entry key="S10" value="4.979831713283907" />
-      <entry key="S30" value="5.655450560326687" />
-      <entry key="S60" value="6.41355238699014" />
-      <entry key="M2" value="10.483297908656128" />
-      <entry key="M5" value="33.68712608291135" />
-      <entry key="M10" value="77.83667530900914" />
-      <entry key="M15" value="119.1302873719646" />
-      <entry key="M30" value="211.00489651390393" />
-      <entry key="H1" value="304.2181506816208" />
-      <entry key="H2" value="374.61771446528775" />
-      <entry key="H4" value="418.59788832859044" />
-      <entry key="D1" value="460.8574891282201" />
-      <entry key="W1" value="468.67896948979285" />
+      <entry key="MS100" value="1.423E-321" />
+      <entry key="MS500" value="6.77079953829085E-65" />
+      <entry key="S2" value="9.207492350934562E-17" />
+      <entry key="S5" value="4.948205317574958E-7" />
+      <entry key="S10" value="0.001218340440927265" />
+      <entry key="S30" value="0.35319149599193145" />
+      <entry key="S60" value="2.224015932617895" />
+      <entry key="M2" value="7.881792264527453" />
+      <entry key="M5" value="28.73141712790584" />
+      <entry key="M10" value="69.63222388040862" />
+      <entry key="M15" value="110.28305955967663" />
+      <entry key="M30" value="205.81025890863103" />
+      <entry key="H1" value="307.46535822597133" />
+      <entry key="H2" value="386.4993364549223" />
+      <entry key="H4" value="436.67518640723074" />
+      <entry key="D1" value="485.39800881759277" />
+      <entry key="W1" value="494.4667857306016" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="2.2138317687899895E-243" />
-      <entry key="S2" value="2.2989935244831032E-61" />
-      <entry key="S5" value="7.185971184749097E-25" />
-      <entry key="S10" value="1.1561131239213383E-12" />
-      <entry key="S30" value="1.6617699209949048E-4" />
-      <entry key="S60" value="0.019227404024514217" />
-      <entry key="M2" value="0.24305386115155989" />
-      <entry key="M5" value="1.770321527515" />
-      <entry key="M10" value="4.326190023225637" />
-      <entry key="M15" value="6.160766678738908" />
-      <entry key="M30" value="9.581999629038688" />
-      <entry key="H1" value="12.891943237944112" />
-      <entry key="H2" value="15.439709550778467" />
-      <entry key="H4" value="17.065164176961638" />
-      <entry key="D1" value="18.653096195305213" />
-      <entry key="W1" value="18.949801082073147" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000004717415467" />
+      <entry key="S5" value="1.002948510943275" />
+      <entry key="S10" value="1.0553444884545435" />
+      <entry key="S30" value="1.6474438016035446" />
+      <entry key="S60" value="3.0046913844513146" />
+      <entry key="M2" value="5.103607610027194" />
+      <entry key="M5" value="8.23400240540333" />
+      <entry key="M10" value="11.42377628198689" />
+      <entry key="M15" value="13.658939132286486" />
+      <entry key="M30" value="17.792616128846593" />
+      <entry key="H1" value="21.735433182129608" />
+      <entry key="H2" value="24.760373984111716" />
+      <entry key="H4" value="26.69316273322157" />
+      <entry key="D1" value="28.58581927477457" />
+      <entry key="W1" value="28.940049049836873" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.22961169256405228" />
-      <entry key="MS500" value="1.095931188968464" />
-      <entry key="S2" value="2.8108323004670144" />
-      <entry key="S5" value="4.1743717960098214" />
-      <entry key="S10" value="4.9460581971976625" />
-      <entry key="S30" value="5.643918188905659" />
-      <entry key="S60" value="6.425916784084222" />
-      <entry key="M2" value="10.718869103384979" />
-      <entry key="M5" value="35.44300217604624" />
-      <entry key="M10" value="82.14463709515063" />
-      <entry key="M15" value="125.27272328253815" />
-      <entry key="M30" value="220.57119876021454" />
-      <entry key="H1" value="317.09886362303746" />
-      <entry key="H2" value="390.0504825302362" />
-      <entry key="H4" value="435.6591564707004" />
-      <entry key="D1" value="479.50986661105" />
-      <entry key="W1" value="487.6286660457274" />
+      <entry key="MS100" value="6.300318482884052E-8" />
+      <entry key="MS500" value="0.036297147872678806" />
+      <entry key="S2" value="0.4364840654802935" />
+      <entry key="S5" value="0.7201319818142465" />
+      <entry key="S10" value="0.8977760689153756" />
+      <entry key="S30" value="1.9078745500975673" />
+      <entry key="S60" value="5.130119562457494" />
+      <entry key="M2" value="12.896131032585101" />
+      <entry key="M5" value="36.906135308320025" />
+      <entry key="M10" value="81.01346098119392" />
+      <entry key="M15" value="123.90676111803597" />
+      <entry key="M30" value="223.577987720775" />
+      <entry key="H1" value="329.1845463432895" />
+      <entry key="H2" value="411.2500778001554" />
+      <entry key="H4" value="463.36304407662413" />
+      <entry key="D1" value="513.982863640178" />
+      <entry key="W1" value="523.4066948490681" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -180,7 +176,7 @@
       <recent name="C:\Users\hanus\OneDrive\Documents\microservices" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.LoansApplication">
+  <component name="RunManager" selected="Spring Boot.AccountsApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="accounts" />
       <method v="2">
@@ -222,8 +218,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.LoansApplication" />
         <item itemvalue="Spring Boot.AccountsApplication" />
+        <item itemvalue="Spring Boot.LoansApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784624282819</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changes all build image using google jib">
+      <option name="closed" value="true" />
+      <created>1784719487504</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1784719487504</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +281,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="base code with sql query" />
     <MESSAGE value="create docker image for cards and loans ms" />
-    <option name="LAST_COMMIT_MESSAGE" value="create docker image for cards and loans ms" />
+    <MESSAGE value="changes all build image using google jib" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes all build image using google jib" />
   </component>
 </project>
