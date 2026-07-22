@@ -28,7 +28,7 @@
 		<url/>
 	</scm>
 	<properties>
-		<java.version>23</java.version>
+		<java.version>21</java.version>
 	</properties>
 	<dependencies>
 
@@ -99,18 +99,6 @@
 					<to>
 						<image>dharaneesh0203/${project.artifactId}:v1</image>
 					</to>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<excludes>
-						<exclude>
-							<groupId>org.projectlombok</groupId>
-							<artifactId>lombok</artifactId>
-						</exclude>
-					</excludes>
 				</configuration>
 			</plugin>
 			<plugin>

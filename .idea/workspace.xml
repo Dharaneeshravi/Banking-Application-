@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d72dd41-c767-4cd9-a8ac-7293468ee87e" name="Changes" comment="base code with sql query">
+    <list default="true" id="0d72dd41-c767-4cd9-a8ac-7293468ee87e" name="Changes" comment="create docker image for cards and loans ms">
+      <change afterPath="$PROJECT_DIR$/accounts/accounts/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/accounts/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/accounts/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cards/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/cards/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/loans/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/loans/src/test/java/com/dharaneesh/loans/LoansApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,61 +60,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.2189728123412285" />
-      <entry key="MS500" value="2.7901806835055685" />
-      <entry key="S2" value="4.227620401702335" />
-      <entry key="S5" value="4.751117413767295" />
-      <entry key="S10" value="5.581252340573449" />
-      <entry key="S30" value="11.839214680795079" />
-      <entry key="S60" value="18.424753912352408" />
-      <entry key="M2" value="25.429400138010553" />
-      <entry key="M5" value="44.45676529358524" />
-      <entry key="M10" value="74.4407850885891" />
-      <entry key="M15" value="98.24830065635288" />
-      <entry key="M30" value="141.83490579577858" />
-      <entry key="H1" value="177.76006996927853" />
-      <entry key="H2" value="201.37076937285008" />
-      <entry key="H4" value="214.98645261767615" />
-      <entry key="D1" value="227.3938690032454" />
-      <entry key="W1" value="229.62505774398795" />
+      <entry key="MS100" value="1.0077054788035786" />
+      <entry key="MS500" value="1.471734801184099" />
+      <entry key="S2" value="2.955285590421683" />
+      <entry key="S5" value="4.239118049060049" />
+      <entry key="S10" value="4.979831713283907" />
+      <entry key="S30" value="5.655450560326687" />
+      <entry key="S60" value="6.41355238699014" />
+      <entry key="M2" value="10.483297908656128" />
+      <entry key="M5" value="33.68712608291135" />
+      <entry key="M10" value="77.83667530900914" />
+      <entry key="M15" value="119.1302873719646" />
+      <entry key="M30" value="211.00489651390393" />
+      <entry key="H1" value="304.2181506816208" />
+      <entry key="H2" value="374.61771446528775" />
+      <entry key="H4" value="418.59788832859044" />
+      <entry key="D1" value="460.8574891282201" />
+      <entry key="W1" value="468.67896948979285" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.3218212164355048E-243" />
-      <entry key="S5" value="7.054547120178966E-98" />
-      <entry key="S10" value="2.6573276155638567E-49" />
-      <entry key="S30" value="7.229338841808381E-17" />
-      <entry key="S60" value="1.2020560557897851E-8" />
-      <entry key="M2" value="1.793160160604291E-4" />
-      <entry key="M5" value="0.06599290699693665" />
-      <entry key="M10" value="0.5733026130371084" />
-      <entry key="M15" value="1.259351054357916" />
-      <entry key="M30" value="2.896086401308437" />
-      <entry key="H1" value="4.474237499731266" />
-      <entry key="H2" value="5.587630982229335" />
-      <entry key="H4" value="6.251633601035393" />
-      <entry key="D1" value="6.8689526478776655" />
-      <entry key="W1" value="6.981117778414455" />
+      <entry key="MS500" value="2.2138317687899895E-243" />
+      <entry key="S2" value="2.2989935244831032E-61" />
+      <entry key="S5" value="7.185971184749097E-25" />
+      <entry key="S10" value="1.1561131239213383E-12" />
+      <entry key="S30" value="1.6617699209949048E-4" />
+      <entry key="S60" value="0.019227404024514217" />
+      <entry key="M2" value="0.24305386115155989" />
+      <entry key="M5" value="1.770321527515" />
+      <entry key="M10" value="4.326190023225637" />
+      <entry key="M15" value="6.160766678738908" />
+      <entry key="M30" value="9.581999629038688" />
+      <entry key="H1" value="12.891943237944112" />
+      <entry key="H2" value="15.439709550778467" />
+      <entry key="H4" value="17.065164176961638" />
+      <entry key="D1" value="18.653096195305213" />
+      <entry key="W1" value="18.949801082073147" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.1620973214430743" />
-      <entry key="MS500" value="2.7643551180577886" />
-      <entry key="S2" value="4.21804696179547" />
-      <entry key="S5" value="4.7454179069161695" />
-      <entry key="S10" value="5.575817556907266" />
-      <entry key="S30" value="11.831266404956363" />
-      <entry key="S60" value="18.415493346003384" />
-      <entry key="M2" value="25.421592139334034" />
-      <entry key="M5" value="44.51645996432823" />
-      <entry key="M10" value="75.00717811800304" />
-      <entry key="M15" value="99.50015700207592" />
-      <entry key="M30" value="144.72391566774886" />
-      <entry key="H1" value="182.2291798698808" />
-      <entry key="H2" value="206.95527714698073" />
-      <entry key="H4" value="221.23635791648368" />
-      <entry key="D1" value="234.2625077788421" />
-      <entry key="W1" value="236.60613001334247" />
+      <entry key="MS100" value="0.22961169256405228" />
+      <entry key="MS500" value="1.095931188968464" />
+      <entry key="S2" value="2.8108323004670144" />
+      <entry key="S5" value="4.1743717960098214" />
+      <entry key="S10" value="4.9460581971976625" />
+      <entry key="S30" value="5.643918188905659" />
+      <entry key="S60" value="6.425916784084222" />
+      <entry key="M2" value="10.718869103384979" />
+      <entry key="M5" value="35.44300217604624" />
+      <entry key="M10" value="82.14463709515063" />
+      <entry key="M15" value="125.27272328253815" />
+      <entry key="M30" value="220.57119876021454" />
+      <entry key="H1" value="317.09886362303746" />
+      <entry key="H2" value="390.0504825302362" />
+      <entry key="H4" value="435.6591564707004" />
+      <entry key="D1" value="479.50986661105" />
+      <entry key="W1" value="487.6286660457274" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -143,6 +143,9 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;CidrDebugProfileConversion&quot;: &quot;true&quot;,
+    &quot;Maven.accounts [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.accounts [install].executor&quot;: &quot;Run&quot;,
     &quot;Maven.cards [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.cards [install].executor&quot;: &quot;Run&quot;,
     &quot;Maven.loans [clean].executor&quot;: &quot;Run&quot;,
@@ -227,8 +230,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.258" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.258" />
       </set>
     </attachedChunks>
   </component>
@@ -256,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780123349695</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create docker image for cards and loans ms">
+      <option name="closed" value="true" />
+      <created>1784624282819</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1784624282819</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +276,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="base code with sql query" />
-    <option name="LAST_COMMIT_MESSAGE" value="base code with sql query" />
+    <MESSAGE value="create docker image for cards and loans ms" />
+    <option name="LAST_COMMIT_MESSAGE" value="create docker image for cards and loans ms" />
   </component>
 </project>
