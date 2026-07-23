@@ -16,6 +16,7 @@ import jakarta.validation.constraints.Pattern;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -34,6 +35,9 @@ public class AccountsController {
 
     @Value("${build.version}")
     private String buildVersion;
+
+    @Autowired
+    private Environment environment;
 
     @Autowired
     public AccountsController(IAccountsService accountsService) {
@@ -197,5 +201,29 @@ public class AccountsController {
     public ResponseEntity<String> getBuildInfo()
     {
         return ResponseEntity.ok(buildVersion);
+    }
+
+
+    @Operation(
+            summary = "Get Java Info REST API",
+            description = "REST API to get the Java information"
+    )
+    @ApiResponses({
+            @ApiResponse(
+                    responseCode = "200",
+                    description = "HTTP status Ok"
+            ),
+            @ApiResponse(
+                    responseCode = "500",
+                    description = "HTTP status Internal server error",
+                    content = @Content(
+                            schema = @Schema(implementation = ErrorResponseDto.class)
+                    )
+            )
+    })
+    @GetMapping("/java-version")
+    public ResponseEntity<String> getJavaVersion()
+    {
+        return ResponseEntity.ok(environment.getProperty("JAVA_HOME"));
     }
 }

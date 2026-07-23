@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d72dd41-c767-4cd9-a8ac-7293468ee87e" name="Changes" comment="changes all build image using google jib">
+    <list default="true" id="0d72dd41-c767-4cd9-a8ac-7293468ee87e" name="Changes" comment="Reading configurations using Environment interface">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/accounts/src/main/java/com/dharaneesh/accounts/controller/AccountsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/accounts/src/main/java/com/dharaneesh/accounts/controller/AccountsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/accounts/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +18,9 @@
       <entry key="_/Users/macbook/Downloads/Banking-Application-" value="3EMTM5KEDsYJOI0nUT1GvLRcmFT" />
       <entry key="_/Users/macbook/Downloads/Banking-Application-/loans/loans" value="3GlFIgv44Nn7RpSdfWTPHGKETHq" />
     </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="108" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,61 +58,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.423E-321" />
-      <entry key="MS500" value="6.77079953829085E-65" />
-      <entry key="S2" value="9.207492350934562E-17" />
-      <entry key="S5" value="4.948205317574958E-7" />
-      <entry key="S10" value="0.001218340440927265" />
-      <entry key="S30" value="0.35319149599193145" />
-      <entry key="S60" value="2.224015932617895" />
-      <entry key="M2" value="7.881792264527453" />
-      <entry key="M5" value="28.73141712790584" />
-      <entry key="M10" value="69.63222388040862" />
-      <entry key="M15" value="110.28305955967663" />
-      <entry key="M30" value="205.81025890863103" />
-      <entry key="H1" value="307.46535822597133" />
-      <entry key="H2" value="386.4993364549223" />
-      <entry key="H4" value="436.67518640723074" />
-      <entry key="D1" value="485.39800881759277" />
-      <entry key="W1" value="494.4667857306016" />
-    </decayedCancelled>
-    <decayedSelected>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000004717415467" />
-      <entry key="S5" value="1.002948510943275" />
-      <entry key="S10" value="1.0553444884545435" />
-      <entry key="S30" value="1.6474438016035446" />
-      <entry key="S60" value="3.0046913844513146" />
-      <entry key="M2" value="5.103607610027194" />
-      <entry key="M5" value="8.23400240540333" />
-      <entry key="M10" value="11.42377628198689" />
-      <entry key="M15" value="13.658939132286486" />
-      <entry key="M30" value="17.792616128846593" />
-      <entry key="H1" value="21.735433182129608" />
-      <entry key="H2" value="24.760373984111716" />
-      <entry key="H4" value="26.69316273322157" />
-      <entry key="D1" value="28.58581927477457" />
-      <entry key="W1" value="28.940049049836873" />
+      <entry key="S2" value="1.0000001586664018" />
+      <entry key="S5" value="1.001906312032766" />
+      <entry key="S10" value="1.0436613333828235" />
+      <entry key="S30" value="1.3521267336538223" />
+      <entry key="S60" value="1.5934026898870224" />
+      <entry key="M2" value="1.7708254108169923" />
+      <entry key="M5" value="2.4661347851935873" />
+      <entry key="M10" value="11.60811357811221" />
+      <entry key="M15" value="31.4619760823934" />
+      <entry key="M30" value="108.50679095256102" />
+      <entry key="H1" value="223.72996992342973" />
+      <entry key="H2" value="331.163036983216" />
+      <entry key="H4" value="406.18831577654" />
+      <entry key="D1" value="483.5955488964904" />
+      <entry key="W1" value="498.47099991418827" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="4.306453851719033E-299" />
+      <entry key="MS500" value="2.1223839831637864E-60" />
+      <entry key="S2" value="1.2069964420055753E-15" />
+      <entry key="S5" value="1.0781579657789154E-6" />
+      <entry key="S10" value="0.0010383438571970828" />
+      <entry key="S30" value="0.1012621317885049" />
+      <entry key="S60" value="0.31821712488375475" />
+      <entry key="M2" value="0.5644464013875016" />
+      <entry key="M5" value="0.9940511145278929" />
+      <entry key="M10" value="2.8090932080534494" />
+      <entry key="M15" value="5.264677919170813" />
+      <entry key="M30" value="11.571897440536505" />
+      <entry key="H1" value="18.64933272377959" />
+      <entry key="H2" value="24.452098484449845" />
+      <entry key="H4" value="28.292644167938327" />
+      <entry key="D1" value="32.145241398389466" />
+      <entry key="W1" value="32.87602200904573" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="6.300318482884052E-8" />
-      <entry key="MS500" value="0.036297147872678806" />
-      <entry key="S2" value="0.4364840654802935" />
-      <entry key="S5" value="0.7201319818142465" />
-      <entry key="S10" value="0.8977760689153756" />
-      <entry key="S30" value="1.9078745500975673" />
-      <entry key="S60" value="5.130119562457494" />
-      <entry key="M2" value="12.896131032585101" />
-      <entry key="M5" value="36.906135308320025" />
-      <entry key="M10" value="81.01346098119392" />
-      <entry key="M15" value="123.90676111803597" />
-      <entry key="M30" value="223.577987720775" />
-      <entry key="H1" value="329.1845463432895" />
-      <entry key="H2" value="411.2500778001554" />
-      <entry key="H4" value="463.36304407662413" />
-      <entry key="D1" value="513.982863640178" />
-      <entry key="W1" value="523.4066948490681" />
+      <entry key="MS100" value="1.8657697289680335E-31" />
+      <entry key="MS500" value="7.147787102487306E-7" />
+      <entry key="S2" value="0.02907671019491179" />
+      <entry key="S5" value="0.24480003683665005" />
+      <entry key="S10" value="0.5374038357226499" />
+      <entry key="S30" value="1.2390511741176338" />
+      <entry key="S60" value="1.7936892666926167" />
+      <entry key="M2" value="2.2720522003073773" />
+      <entry key="M5" value="3.431938328316176" />
+      <entry key="M10" value="14.395978093306217" />
+      <entry key="M15" value="36.705777828847815" />
+      <entry key="M30" value="120.05888013311001" />
+      <entry key="H1" value="242.36363500115732" />
+      <entry key="H2" value="355.604799763842" />
+      <entry key="H4" value="434.4749395077051" />
+      <entry key="D1" value="515.7396417997412" />
+      <entry key="W1" value="531.3468538855969" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -271,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784719487504</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Reading configurations using @Value annotation">
+      <option name="closed" value="true" />
+      <created>1784729502238</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1784729502238</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +292,7 @@
     <MESSAGE value="base code with sql query" />
     <MESSAGE value="create docker image for cards and loans ms" />
     <MESSAGE value="changes all build image using google jib" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes all build image using google jib" />
+    <MESSAGE value="Reading configurations using @Value annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reading configurations using @Value annotation" />
   </component>
 </project>
