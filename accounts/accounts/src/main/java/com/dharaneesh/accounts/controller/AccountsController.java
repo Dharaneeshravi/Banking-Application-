@@ -1,6 +1,7 @@
 package com.dharaneesh.accounts.controller;
 
 import com.dharaneesh.accounts.constants.AccountsConstants;
+import com.dharaneesh.accounts.dto.AccountsContactInfoDto;
 import com.dharaneesh.accounts.dto.CustomerDto;
 import com.dharaneesh.accounts.dto.ErrorResponseDto;
 import com.dharaneesh.accounts.dto.ResponseDto;
@@ -13,7 +14,6 @@ import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Pattern;
-import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.env.Environment;
@@ -38,6 +38,9 @@ public class AccountsController {
 
     @Autowired
     private Environment environment;
+
+    @Autowired
+    private AccountsContactInfoDto contactInfoDto;
 
     @Autowired
     public AccountsController(IAccountsService accountsService) {
@@ -225,5 +228,29 @@ public class AccountsController {
     public ResponseEntity<String> getJavaVersion()
     {
         return ResponseEntity.ok(environment.getProperty("JAVA_HOME"));
+    }
+
+
+    @Operation(
+            summary = "Get Contact Info REST API",
+            description = "REST API to get the contact information"
+    )
+    @ApiResponses({
+            @ApiResponse(
+                    responseCode = "200",
+                    description = "HTTP status Ok"
+            ),
+            @ApiResponse(
+                    responseCode = "500",
+                    description = "HTTP status Internal server error",
+                    content = @Content(
+                            schema = @Schema(implementation = ErrorResponseDto.class)
+                    )
+            )
+    })
+    @GetMapping("/contact-info")
+    public ResponseEntity<AccountsContactInfoDto> getContactInfo()
+    {
+        return ResponseEntity.ok(contactInfoDto);
     }
 }
