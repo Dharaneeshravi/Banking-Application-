@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.O"
+
+accounts:
+  message: "Welcome to the Accounts microservice related prod APIs"
+  contactInfo:
+    name: "Accounts Team prod-Lead"
+    email: "accounts@bank.com"
+  onCallSupport:
+    -9943032698
+    -6374526623

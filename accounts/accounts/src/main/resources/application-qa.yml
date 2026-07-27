@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.O"
+
+accounts:
+  message: "Welcome to the Accounts microservice related QA APIs"
+  contactInfo:
+    name: "Accounts Team QA-Lead"
+    email: "accounts@bank.com"
+  onCallSupport:
+    -9943032698
+    -6374526623
