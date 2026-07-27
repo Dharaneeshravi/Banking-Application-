@@ -1,0 +1,17 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+
+build:
+  version: "1.0"
+
+loans:
+  message: "Welcome to the Loans microservice in prod"
+  contactInfo:
+    name: "Loans Team in prod"
+    email: "loans@bank.com"
+  onCallSupport:
+    - "9943032698"
+    - "6374526623"
