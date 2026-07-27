@@ -1,0 +1,18 @@
+
+
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+cards:
+  message: "Welcome to the Cards microservice in prod"
+  contactInfo:
+    name: "Cards Team in prod"
+    email: "cards@bank.com"
+  onCallSupport:
+    - "9943032698"
+    - "6374526623"

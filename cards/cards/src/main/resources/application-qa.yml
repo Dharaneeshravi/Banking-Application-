@@ -1,0 +1,17 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+
+build:
+  version: "2.0"
+
+cards:
+  message: "Welcome to the Cards microservice in QA"
+  contactInfo:
+    name: "Cards Team in QA"
+    email: "cards@bank.com"
+  onCallSupport:
+    - "9943032698"
+    - "6374526623"
