@@ -3,7 +3,7 @@ server:
 
 spring:
   profiles:
-    active: "qa"
+    active: "prod"
 
   datasource:
     url: jdbc:h2:mem:testdb
@@ -22,16 +22,7 @@ spring:
 
 
   application:
-    name: accounts
+    name: "accounts"
 
-build:
-  version: "3.0"
-
-accounts:
-  message: "Welcome to the Accounts microservice"
-  contactInfo:
-    name: "Accounts Team"
-    email: "accounts@bank.com"
-  onCallSupport:
-    - "9943032698"
-    - "6374526623"
+  config:
+    import: "optional:configserver:http://localhost:8071/"

@@ -3,7 +3,7 @@ server:
 spring:
 
   profiles:
-    active: "qa"
+    active: "prod"
 
   datasource:
     url: jdbc:h2:mem:mydb
@@ -19,15 +19,7 @@ spring:
       ddl-auto: update
     show-sql: true
 
-
-    build:
-      version: "3.0"
-
-    cards:
-      message: "Welcome to the Cards microservice"
-      contactInfo:
-        name: "Cards Team"
-        email: "cards@bank.com"
-      onCallSupport:
-        - "9943032698"
-        - "6374526623"
+  config:
+    import: "optional:configserver:http://localhost:8071/"
+  application:
+    name: "cards"

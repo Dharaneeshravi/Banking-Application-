@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    config:
+      server:
+        native:
+#          search-locations: "classpath:/config"
+           search-locations: "file:///C://Users//hanus//Documents//config"
+  profiles:
+    active: native
+  application:
+    name: "configserver"
+
+server:
+  port: 8071
