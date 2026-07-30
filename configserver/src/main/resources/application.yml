@@ -2,13 +2,24 @@ spring:
   cloud:
     config:
       server:
-        native:
+        git:
+          uri: "https://github.com/Dharaneeshravi/config.git"
+          default-label: main
+          timeout: 5
+          clone-on-start: true
+          force-pull: true
+#        native:
 #          search-locations: "classpath:/config"
-           search-locations: "file:///C://Users//hanus//Documents//config"
+#           search-locations: "file:///C://Users//hanus//Documents//config"
   profiles:
-    active: native
+#    active: native
+     active: git
   application:
     name: "configserver"
+
+
+encrypt:
+  key: "A7mX9qLp2Nz4Hr8Kw1Ty5Df3Vc6Bs0Je"
 
 server:
   port: 8071
