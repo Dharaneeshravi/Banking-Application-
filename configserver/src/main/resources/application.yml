@@ -8,6 +8,11 @@ spring:
           timeout: 5
           clone-on-start: true
           force-pull: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 #        native:
 #          search-locations: "classpath:/config"
 #           search-locations: "file:///C://Users//hanus//Documents//config"
@@ -20,6 +25,12 @@ spring:
 
 encrypt:
   key: "A7mX9qLp2Nz4Hr8Kw1Ty5Df3Vc6Bs0Je"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
 server:
   port: 8071
