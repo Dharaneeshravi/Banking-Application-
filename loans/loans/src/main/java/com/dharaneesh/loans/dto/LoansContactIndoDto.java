@@ -1,9 +1,16 @@
 package com.dharaneesh.loans.dto;
 
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 import java.util.List;
 import java.util.Map;
 @ConfigurationProperties(prefix = "loans")
-public record LoansContactIndoDto(String message, Map<String,String> contactInfo, List<String> onCallSupport) {
+@Getter @Setter
+public class LoansContactIndoDto {
+
+    private String message;
+    private Map<String,String> contactInfo;
+    private List<String> onCallSupport;
 }
