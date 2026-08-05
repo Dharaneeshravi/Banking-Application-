@@ -34,11 +34,6 @@
 	<dependencies>
 
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-bus-amqp</artifactId>
-		</dependency>
-
-		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
@@ -77,8 +72,8 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
@@ -129,7 +124,7 @@
 				<version>3.5.2</version>
 				<configuration>
 					<to>
-						<image>dharaneesh0203/${project.artifactId}:v2</image>
+						<image>dharaneesh0203/${project.artifactId}:v3</image>
 					</to>
 				</configuration>
 			</plugin>
